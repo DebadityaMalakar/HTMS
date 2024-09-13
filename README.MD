@@ -7,6 +7,6 @@ Features in implemention:
 - [x] Variable Declaration
 - [x] Print Statements
 - [x] If Else
-- [] If Elif Else
-- [] For
-- [] Blocks[Functions]
+- [ ] If Elif Else
+- [ ] For
+- [ ] Blocks[Functions]
