@@ -1,0 +1,23 @@
+{
+  "name": "htms",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "concurrently \"rollup -c -w --bundleConfigAsCjs\" \"live-server --port=8080\"",
+    "build": "rollup -c",
+    "start": "npm run build && live-server --port=8080"
+  },
+  "keywords": [
+    "HTMS"
+  ],
+  "author": "Debaditya",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "live-server": "^1.2.2",
+    "rollup": "^4.21.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
